@@ -3,7 +3,7 @@
   <nav class="blue-grey" role="navigation">
     <div class="nav-wrapper container">
 
-      <a id="logo-container" href="#" class="brand-logo"><i class="material-icons">public</i>Top News</a>
+      <a id="logo-container" href="#" class="brand-logo"><i class="material-icons">public</i>Top Stories</a>
 
     </div>
   </nav>
@@ -30,6 +30,11 @@
   </div>
 
   <footer class="page-footer orange">
+    <div class="footer-copyright black">
+      <div class="container">
+        Powered by <a class="orange-text" href="https://newsapi.org/">News API</a>
+      </div>
+    </div>
   </footer>
 
 
