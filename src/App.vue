@@ -1,13 +1,36 @@
 <template>
 <div>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">News</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="">Get News</a></li>
-      </ul>
+  <nav class="blue-grey" role="navigation">
+    <div class="nav-wrapper container">
+
+      <a id="logo-container" href="#" class="brand-logo"><i class="material-icons">public</i>Top News</a>
+
     </div>
   </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Search News!</h1>
+
+      <div class="row center">
+
+        <app-search></app-search>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <app-news></app-news>
+    <br><br>
+  </div>
+
+  <footer class="page-footer orange">
+  </footer>
 
 
   <main>
@@ -26,9 +49,5 @@ export default {
 </script>
 
 <style>
-  .nav-wrapper {
-    background-color: #00ced1;
-    font-size: 14px;
-    font-weight: bold;
-  }
+
 </style>
